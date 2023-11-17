@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{lipsum}  % Paquete para generar texto de ejemplo
+
+% Configuración del estilo para el código fuente
+\lstset{
+    basicstyle=\small\ttfamily,
+    backgroundcolor=\color{lightgray},
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny,
+    language=bash
+}
+
+\begin{document}
+
+\title{Guía de Instalación de MATLAB en Ubuntu}
+\author{Reynoso Ortega Francisco Javier}
+\date{\today}
+
+\maketitle
+
+\section{Introducción}
+
+Este documento proporciona una guía paso a paso para instalar MATLAB en un sistema Ubuntu. Asegúrate de seguir cada paso cuidadosamente para una instalación exitosa.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{matlab_logo.jpg}
+    \caption{Logo de MATLAB}
+    \label{fig:matlab_logo}
+\end{figure}
+
+MATLAB es un entorno de desarrollo para la programación de algoritmos, visualización de datos y cálculos numéricos.
+
+\section{Pasos para la Instalación}
+
+\subsection{Iniciar Sesión en MATLAB}
+
+Antes de iniciar la instalación, inicia sesión en MATLAB con tu cuenta institucional. Este paso es necesario para acceder a las descargas y actualizaciones.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{m2.png}
+    \caption{Descarga de MATLAB}
+    \label{fig:descarga_matlab}
+\end{figure}
+
+\subsection{Descargar MATLAB}
+
+Visita el sitio web oficial de MathWorks (\texttt{https://www.mathworks.com/downloads/}) para descargar la versión de MATLAB adecuada para tu sistema operativo.
+
+\subsection{Descomprimir el Archivo}
+
+Una vez que se complete la descarga, descomprime el archivo descargado en un directorio de tu elección.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{m4.png}
+    \caption{Descompresión del Archivo}
+    \label{fig:descompresion_matlab}
+\end{figure}
+
+\subsection{Instalar MATLAB}
+
+Para comenzar la instalación, utiliza el comando \texttt{xhost} para permitir que el usuario \texttt{root} tenga acceso al servidor gráfico. Luego, ejecuta el instalador de MATLAB con el comando \texttt{./install}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{m3.png}
+    \caption{Ejecución del Instalador}
+    \label{fig:instalacion_matlab}
+\end{figure}
+
+Sigue las instrucciones del instalador para completar la instalación. Asegúrate de proporcionar la ubicación correcta para la instalación y sigue cualquier paso adicional que se presente durante el proceso.
+
+\subsection{Siguiendo los Pasos del Instalador}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{m5.png}
+    \caption{Configurando la instalación}
+    \label{fig:instalacion_matlab}
+\end{figure}
+
+\subsection{Iniciando MATLAB}
+
+Para iniciar MATLAB, ejecuta el comando \texttt{matlab} en la terminal.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{m7.png}
+    \caption{Inicio de MATLAB desde la Terminal}
+    \label{fig:inicio_matlab}
+\end{figure}
+
+\end{document}
